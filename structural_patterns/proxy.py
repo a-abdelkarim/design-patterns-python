@@ -34,14 +34,7 @@ class Proxy:
 
 
 if __name__ == '__main__':
-    #Instantiate a Proxy
-    p = Proxy()
-
-    #Make the proxy: Artist produce until Producer is available
-    p.produce()
-
-    #Change the state to 'occupied'
-    p.occupied = True
-
-    #Make the Producer produce
-    p.produce()
+    p = Proxy() #Instantiate a Proxy
+    p.produce() #Make the proxy: Artist produce until Producer is available
+    p.occupied = True #Change the state to 'occupied'
+    p.produce() #Make the Producer produce 
