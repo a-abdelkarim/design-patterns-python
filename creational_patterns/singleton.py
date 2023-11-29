@@ -1,6 +1,7 @@
 """
 Scenario: You need to connect to external server to share some of your application data. 
-You haven't to create a new instance from the connector class Each time you need to send your data to the External server. 
+You haven't to create a new instance from the connector class Each time you need to send 
+your data to the External server. 
 """
 
 
