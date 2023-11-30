@@ -7,24 +7,24 @@ This repository contains Python implementations of various design patterns. Whet
 ## Table of Contents
 
 - [Behavioral Patterns](https://github.com/a-abdelkarim/design-patterns-python/tree/main/behavioural_patterns)
-  - [Chain of Responsibility](behavioral_patterns/chain.py)
-  - [Observer](behavioral_patterns/observer.py)
-  - [Strategy](behavioral_patterns/strategy.py)
-  - [Visitor](behavioral_patterns/visitor.py)
+  - [Chain of Responsibility](https://github.com/a-abdelkarim/design-patterns-python/tree/main/behavioral_patterns/chain.py)
+  - [Observer](https://github.com/a-abdelkarim/design-patterns-python/tree/main/behavioral_patterns/observer.py)
+  - [Strategy](https://github.com/a-abdelkarim/design-patterns-python/tree/main/behavioral_patterns/strategy.py)
+  - [Visitor](https://github.com/a-abdelkarim/design-patterns-python/tree/main/behavioral_patterns/visitor.py)
 
-- [Creational Patterns](#creational_patterns)
-  - [Abstract Factory](creational_patterns/abstract_factory.py)
-  - [Builder](creational_patterns/builder.py)
-  - [Factory](creational_patterns/factory.py)
-  - [Prototype](creational_patterns/prototype.py)
-  - [Singleton](creational_patterns/singleton.py)
+- [Creational Patterns](https://github.com/a-abdelkarim/design-patterns-python/tree/main/creational_patterns)
+  - [Abstract Factory](https://github.com/a-abdelkarim/design-patterns-python/tree/main/creational_patterns/abstract_factory.py)
+  - [Builder](https://github.com/a-abdelkarim/design-patterns-python/tree/main/creational_patterns/builder.py)
+  - [Factory](https://github.com/a-abdelkarim/design-patterns-python/tree/main/creational_patterns/factory.py)
+  - [Prototype](https://github.com/a-abdelkarim/design-patterns-python/tree/main/creational_patterns/prototype.py)
+  - [Singleton](https://github.com/a-abdelkarim/design-patterns-python/tree/main/creational_patterns/singleton.py)
 
-- [Structural Patterns](#structural_patterns)
-  - [Adapter](structural_patterns/adapter.py)
-  - [Bridge](structural_patterns/bridge.py)
-  - [Composite](structural_patterns/composite.py)
-  - [Decorator](structural_patterns/decorator.py)
-  - [Proxy](structural_patterns/proxy.py)
+- [Structural Patterns](https://github.com/a-abdelkarim/design-patterns-python/tree/main/structural_patterns)
+  - [Adapter](https://github.com/a-abdelkarim/design-patterns-python/tree/main/structural_patterns/adapter.py)
+  - [Bridge](https://github.com/a-abdelkarim/design-patterns-python/tree/main/structural_patterns/bridge.py)
+  - [Composite](https://github.com/a-abdelkarim/design-patterns-python/tree/main/structural_patterns/composite.py)
+  - [Decorator](https://github.com/a-abdelkarim/design-patterns-python/tree/main/structural_patterns/decorator.py)
+  - [Proxy](https://github.com/a-abdelkarim/design-patterns-python/tree/main/structural_patterns/proxy.py)
 
 ## Getting Started
 
