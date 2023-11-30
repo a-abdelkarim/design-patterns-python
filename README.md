@@ -6,7 +6,7 @@ This repository contains Python implementations of various design patterns. Whet
 
 ## Table of Contents
 
-- [Behavioral Patterns](#behavioral_patterns)
+- [Behavioral Patterns](https://github.com/a-abdelkarim/design-patterns-python/tree/main/behavioural_patterns)
   - [Chain of Responsibility](behavioral_patterns/chain.py)
   - [Observer](behavioral_patterns/observer.py)
   - [Strategy](behavioral_patterns/strategy.py)
