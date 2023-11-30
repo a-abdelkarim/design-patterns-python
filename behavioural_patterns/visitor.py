@@ -1,4 +1,4 @@
-class House(object): #The class being visited 
+class House: #The class being visited 
 	def accept(self, visitor):
 		"""Interface to accept a visitor"""
 		visitor.visit(self) #Triggers the visiting operation!
@@ -14,7 +14,7 @@ class House(object): #The class being visited
 		return self.__class__.__name__
 
 
-class Visitor(object):
+class Visitor:
 	"""Abstract visitor"""
 	def __str__(self):
 		"""Simply return the class name when the Visitor object is printed"""
