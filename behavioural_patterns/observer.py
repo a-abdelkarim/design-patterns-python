@@ -3,7 +3,7 @@ import time
 
 
 
-class Subject: #Represents what is being 'observed'
+class Subject: # Represents what is being 'observed'
 
 	def __init__(self):
 		self._observers = [] # This where references to all the observers are being kept
@@ -11,10 +11,10 @@ class Subject: #Represents what is being 'observed'
                              # be observed by multiple _observers
 
 	def attach(self, observer):
-		if observer not in self._observers: #If the observer is not already in the observers list
+		if observer not in self._observers: # If the observer is not already in the observers list
 			self._observers.append(observer) # append the observer to the list
 
-	def detach(self, observer): #Simply remove the observer
+	def detach(self, observer): # Simply remove the observer
 		try:
 			self._observers.remove(observer)
 		except ValueError:
@@ -25,25 +25,25 @@ class Subject: #Represents what is being 'observed'
 			if modifier != observer: # Don't notify the observer who is actually updating the temperature 
 				observer.update(self) # Alert the observers!
 
-class Core(Subject): #Inherits from the Subject class
+class Core(Subject): # Inherits from the Subject class
 
 	def __init__(self, name=""):
 		Subject.__init__(self)
-		self._name = name #Set the name of the core
-		self._temp = 0 #Initialize the temperature of the core
+		self._name = name # Set the name of the core
+		self._temp = 0 # Initialize the temperature of the core
 
-	@property #Getter that gets the core temperature
+	@property # Getter that gets the core temperature
 	def temp(self):
 		return self._temp
 
-	@temp.setter #Setter that sets the core temperature
+	@temp.setter # Setter that sets the core temperature
 	def temp(self, temp):
 		self._temp = temp
-		self.notify() #Notify the observers whenever somebody changes the core temperature
+		self.notify() # Notify the observers whenever somebody changes the core temperature
 
 class TempViewer:
 
-	def update(self, subject): #Alert method that is invoked when the notify() method in a concrete subject is invoked
+	def update(self, subject): # Alert method that is invoked when the notify() method in a concrete subject is invoked
 		print("Temperature Viewer: {} has Temperature {}".format(subject._name, subject._temp))
 
 
