@@ -7,10 +7,10 @@ This repository contains Python implementations of various design patterns. Whet
 ## Table of Contents
 
 - [Behavioral Patterns](https://github.com/a-abdelkarim/design-patterns-python/tree/main/behavioural_patterns)
-  - [Chain of Responsibility](https://github.com/a-abdelkarim/design-patterns-python/tree/main/behavioral_patterns/chain.py)
-  - [Observer](https://github.com/a-abdelkarim/design-patterns-python/tree/main/behavioral_patterns/observer.py)
-  - [Strategy](https://github.com/a-abdelkarim/design-patterns-python/tree/main/behavioral_patterns/strategy.py)
-  - [Visitor](https://github.com/a-abdelkarim/design-patterns-python/tree/main/behavioral_patterns/visitor.py)
+  - [Chain of Responsibility](https://github.com/a-abdelkarim/design-patterns-python/tree/main/behavioural_patterns/chain.py)
+  - [Observer](https://github.com/a-abdelkarim/design-patterns-python/tree/main/behavioural_patterns/observer.py)
+  - [Strategy](https://github.com/a-abdelkarim/design-patterns-python/tree/main/behavioural_patterns/strategy.py)
+  - [Visitor](https://github.com/a-abdelkarim/design-patterns-python/tree/main/behavioural_patterns/visitor.py)
 
 - [Creational Patterns](https://github.com/a-abdelkarim/design-patterns-python/tree/main/creational_patterns)
   - [Abstract Factory](https://github.com/a-abdelkarim/design-patterns-python/tree/main/creational_patterns/abstract_factory.py)
