@@ -1,4 +1,4 @@
-class Component(object):
+class Component:
 	"""Abstract class"""
 
 	def __init__(self, *args, **kwargs):
